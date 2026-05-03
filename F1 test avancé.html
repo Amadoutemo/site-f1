@@ -52,12 +52,29 @@
         <div class="select-box">
             <label>Pilote n°1</label><br>
             <select id="select-p1" onchange="updateDriver(1)">
-                <option value="sainz" selected>Carlos Sainz (Williams)</option>
-                <option value="verstappen">Max Verstappen (Red Bull)</option>
-                <option value="hadjar">Isack Hadjar (Red Bull)</option>
-                <option value="hamilton">Lewis Hamilton (Ferrari)</option>
-                <option value="leclerc">Charles Leclerc (Ferrari)</option>
-                </select>
+    <option value="verstappen">Max Verstappen (Red Bull)</option>
+    <option value="hadjar">Isack Hadjar (Red Bull)</option>
+    <option value="hamilton">Lewis Hamilton (Ferrari)</option>
+    <option value="leclerc">Charles Leclerc (Ferrari)</option>
+    <option value="norris">Lando Norris (McLaren)</option>
+    <option value="piastri">Oscar Piastri (McLaren)</option>
+    <option value="russell">George Russell (Mercedes)</option>
+    <option value="antonelli">Kimi Antonelli (Mercedes)</option>
+    <option value="alonso">Fernando Alonso (Aston Martin)</option>
+    <option value="stroll">Lance Stroll (Aston Martin)</option>
+    <option value="sainz">Carlos Sainz (Williams)</option>
+    <option value="albon">Alexander Albon (Williams)</option>
+    <option value="gasly">Pierre Gasly (Alpine)</option>
+    <option value="colapinto">Franco Colapinto (Alpine)</option>
+    <option value="ocon">Esteban Ocon (Haas)</option>
+    <option value="bearman">Oliver Bearman (Haas)</option>
+    <option value="lawson">Liam Lawson (Racing Bulls)</option>
+    <option value="lindblad">Arvid Lindblad (Racing Bulls)</option>
+    <option value="hulkenberg">Nico Hülkenberg (Audi)</option>
+    <option value="bortoleto">Gabriel Bortoleto (Audi)</option>
+    <option value="bottas">Valtteri Bottas (Audi)</option>
+    <option value="perez">Sergio Perez (Audi)</option>
+</select>
         </div>
 
         <div class="vs-badge">VS</div>
@@ -65,12 +82,29 @@
         <div class="select-box">
             <label>Pilote n°2</label><br>
             <select id="select-p2" onchange="updateDriver(2)">
-                <option value="verstappen" selected>Max Verstappen (Red Bull)</option>
-                <option value="sainz">Carlos Sainz (Williams)</option>
-                <option value="hadjar">Isack Hadjar (Red Bull)</option>
-                <option value="hamilton">Lewis Hamilton (Ferrari)</option>
-                <option value="leclerc">Charles Leclerc (Ferrari)</option>
-            </select>
+    <option value="verstappen">Max Verstappen (Red Bull)</option>
+    <option value="hadjar">Isack Hadjar (Red Bull)</option>
+    <option value="hamilton">Lewis Hamilton (Ferrari)</option>
+    <option value="leclerc">Charles Leclerc (Ferrari)</option>
+    <option value="norris">Lando Norris (McLaren)</option>
+    <option value="piastri">Oscar Piastri (McLaren)</option>
+    <option value="russell">George Russell (Mercedes)</option>
+    <option value="antonelli">Kimi Antonelli (Mercedes)</option>
+    <option value="alonso">Fernando Alonso (Aston Martin)</option>
+    <option value="stroll">Lance Stroll (Aston Martin)</option>
+    <option value="sainz">Carlos Sainz (Williams)</option>
+    <option value="albon">Alexander Albon (Williams)</option>
+    <option value="gasly">Pierre Gasly (Alpine)</option>
+    <option value="colapinto">Franco Colapinto (Alpine)</option>
+    <option value="ocon">Esteban Ocon (Haas)</option>
+    <option value="bearman">Oliver Bearman (Haas)</option>
+    <option value="lawson">Liam Lawson (Racing Bulls)</option>
+    <option value="lindblad">Arvid Lindblad (Racing Bulls)</option>
+    <option value="hulkenberg">Nico Hülkenberg (Audi)</option>
+    <option value="bortoleto">Gabriel Bortoleto (Audi)</option>
+    <option value="bottas">Valtteri Bottas (Audi)</option>
+    <option value="perez">Sergio Perez (Audi)</option>
+</select>
         </div>
     </section>
 
@@ -154,8 +188,167 @@
                 victoires: "8",
                 bio: "Le 'Petit Prince' de Monaco et pur talent de la Scuderia.",
                 img: "https://cdn-9.motorsport.com/images/mgl/6grBRd7Y/s8/charles-leclerc-ferrari.jpg"
-            }
+            },
+            norris: {
+                nom: "Lando Norris",
+                equipe: "McLaren",
+                titres: "1",
+                podiums: "44",
+                victoires: "11",
+                bio: "Le leader naturel de McLaren, plus affamé que jamais.",
+                img: "..."
+            },
+            piastri: {
+                nom: "Oscar Piastri",
+                equipe: "McLaren",
+                titres: "0",
+                podiums: "27",
+                victoires: "9",
+                bio: "Le prodige australien, calme, précis et redoutablement rapide.",
+                img: "..."
+            },
+            russell: {
+                nom: "George Russell",
+                equipe: "Mercedes",
+                titres: "0",
+                podiums: "26",
+                victoires: "6",
+                bio: "Le nouveau patron des Flèches d'Argent dans l'ère post-Hamilton.",
+                img: "..."
+            },
+            antonelli: {
+                nom: "Kimi Antonelli",
+                equipe: "Mercedes",
+                titres: "0",
+                podiums: "6",
+                victoires: "2",
+                bio: "La pépite italienne, le plus jeune titulaire de l'histoire de Mercedes.",
+                img: "..."
+            },
+
+            alonso: {
+                nom: "Fernando Alonso",
+                equipe: "Aston Martin",
+                titres: "2",
+                podiums: "106",
+                victoires: "32",
+                bio: "Le 'Matador' entame sa collaboration avec Honda à 44 ans passés.",
+                img: "..."
+            },
+            stroll: {
+                nom: "Lance Stroll",
+                equipe: "Aston Martin",
+                titres: "0",
+                podiums: "3",
+                victoires: "0",
+                bio: "Le Canadien profite du moteur Honda pour tenter de franchir un cap.",
+                img: "..."
+            },
+
+            hulkenberg: {
+                nom: "Nico Hülkenberg",
+                equipe: "Audi F1 Team",
+                titres: "0",
+                podiums: "1",
+                victoires: "0",
+                bio: "L'Allemand mène le projet d'entrée d'Audi dans la catégorie reine.",
+                img: "..."
+            },
+            bortoleto: {
+                nom: "Gabriel Bortoleto",
+                equipe: "Audi F1 Team",
+                titres: "0",
+                podiums: "0",
+                victoires: "0",
+                bio: "Le champion brésilien de F2 promu pour le lancement d'Audi.",
+                img: "..."
+            },
+            albon: {
+                nom: "Alexander Albon",
+                equipe: "Williams",
+                titres: "0",
+                podiums: "2",
+                victoires: "0",
+                bio: "Le pilier de l'écurie de Grove, prêt à faire remonter Williams au sommet.",
+                img: "..."
+            },
+
+            gasly: {
+                nom: "Pierre Gasly",
+                equipe: "Alpine",
+                titres: "0",
+                podiums: "5",
+                victoires: "1",
+                bio: "Le leader de l'équipe de France, déterminé à faire briller le A fléché.",
+                img: "..."
+            },
+            colapinto: {
+                nom: "Franco Colapinto",
+                equipe: "Alpine",
+                titres: "0",
+                podiums: "0",
+                victoires: "0",
+                bio: "...",
+                img: "..."
+            },
+
+            ocon: {
+                nom: "Esteban Ocon",
+                equipe: "Haas",
+                titres: "0",
+                podiums: "4",
+                victoires: "1",
+                bio: "Le Français apporte son expérience de vainqueur de GP à l'écurie américaine.",
+                img: "..."
+            },
+            bearman: {
+                nom: "Oliver Bearman",
+                equipe: "Haas",
+                titres: "0",
+                podiums: "0",
+                victoires: "0",
+                bio: "L'espoir britannique formé par Ferrari fait ses débuts officiels.",
+                img: "..."
+            },
+
+            lindblad: {
+                nom: "Armin Lindblad",
+                equipe: "Racing Bulls",
+                titres: "0",
+                podiums: "0",
+                victoires: "0",
+                bio: "...",
+                img: "..."
+            },
+            lawson: {
+                nom: "Liam Lawson",
+                equipe: "Racing Bulls",
+                titres: "0",
+                podiums: "0",
+                victoires: "0",
+                bio: "Le Néo-Zélandais a enfin sa chance sur une saison complète.",
+                img: "..."
+            },
+            bottas: {
+                nom: "Valtteri Bottas",
+                equipe: "Audi",
+                titres: "0",
+                podiums: "67",
+                victoires: "10",
+                bio: "Le Finlandais apporte son immense expérience au nouveau projet Audi.",
+                img: "..."
+            },
+            perez: {
+                nom: "Sergio Perez",
+                equipe: "Audi",
+                titres: "0",
+                podiums: "39",
+                victoires: "6",
+                bio: "...",
+                img: "..."
+            },
         };
+
 
         function updateDriver(cardNumber) {
             const selectId = "select-p" + cardNumber;
